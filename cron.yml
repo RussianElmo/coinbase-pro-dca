@@ -2,7 +2,7 @@ name: 'dca crypto job'
 
 on:
   schedule:
-    - cron: '0 12 */1 * *' # At 12:00 UTC every day
+    - cron: '0 0 * * 1' # At 12:00 UTC every monday
 
 jobs:
   buy-crypto:
